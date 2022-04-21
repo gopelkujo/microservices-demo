@@ -26,7 +26,7 @@
   <div class="h-product container">
     <div class="row">
       <div class="col-md-6">
-        <img class="product-image" alt="" src="{{$.product.Item.Picture}}" />
+        <img class="preview product-image" loading="lazy" alt="" src="{{$.product.Item.Picture}}" />
       </div>
       <div class="product-info col-md-5">
         <div class="product-wrapper">
@@ -46,7 +46,7 @@
                 <option>5</option>
                 <option>10</option>
               </select>
-              <img src="/static/icons/Hipster_DownArrow.svg" alt="">
+              <img src="/static/icons/Hipster_DownArrow.svg" class="preview" loading="lazy" alt="">
             </div>
             <button type="submit" class="cymbal-button-primary">Add To Cart</button>
           </form>
