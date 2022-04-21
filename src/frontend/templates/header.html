@@ -37,13 +37,12 @@
     <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
     <link rel="stylesheet" type="text/css" href="/static/styles/cart.css">
     <link rel="stylesheet" type="text/css" href="/static/styles/order.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css">
-    <script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js" async></script>
     {{ if $.is_cymbal_brand }}
     <link rel='shortcut icon' type='image/x-icon' href='/static/favicon-cymbal.ico' />
     {{ else }}
     <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
     {{ end }}
+    <script src="/static/javascript/lazyload.js"></script>
 </head>
 
 <body>
